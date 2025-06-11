@@ -92,3 +92,24 @@ A comprehensive Streamlit-based perpetual trading bot simulator that provides re
 - User interface and visualization
 - Real-time dashboard updates
 - Interactive controls and configuration
+
+  
+## Risk Management
+
+- **Liquidation Protection**: Positions are automatically closed if losses approach liquidation thresholds
+- **Trading Fees**: Realistic fee simulation (0.1% per trade)
+- **Position Limits**: Configurable position sizes to manage risk
+- **Real-time Monitoring**: Continuous PnL tracking and position status
+
+## Important Notes
+
+⚠️ **SIMULATION ONLY**: This is a trading simulator for educational purposes. No real money is involved, and no actual trades are executed on any exchange.
+
+⚠️ **Educational Use**: Designed to help users understand perpetual trading mechanics, leverage effects, and trading strategy development.
+
+⚠️ **No Financial Advice**: This tool is for educational simulation only and should not be considered financial advice.
+
+## Configuration
+
+The application uses live price data from Jupiter API and requires no API keys or authentication. All trading is simulated locally with realistic market conditions and fees.
+
