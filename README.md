@@ -116,3 +116,11 @@ The application uses live price data from Jupiter API and requires no API keys o
 ## License
 
 **MIT License**
+
+
+## Screenshots
+
+![](https://github.com/btorressz/PerpTradeSim/blob/main/perpscreenshot1.jpg?raw=true)
+
+![](https://github.com/btorressz/PerpTradeSim/blob/main/perpscreenshot2.jpg?raw=true)
+
