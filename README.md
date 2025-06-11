@@ -111,5 +111,8 @@ A comprehensive Streamlit-based perpetual trading bot simulator that provides re
 
 ## Configuration
 
-The application uses live price data from Jupiter API and requires no API keys or authentication. All trading is simulated locally with realistic market conditions and fees.
+The application uses live price data from Jupiter API and requires no API keys or authentication. All trading is simulated locally with realistic market conditions and fees. 
 
+## License
+
+**MIT License**
