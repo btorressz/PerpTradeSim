@@ -42,3 +42,53 @@ A comprehensive Streamlit-based perpetual trading bot simulator that provides re
 - **Data Source**: Jupiter API (Solana DEX aggregator)
 - **Charting**: Plotly for interactive visualizations
 - **Data Processing**: Pandas and NumPy
+
+  
+## Usage
+
+### Getting Started
+1. Launch the application and wait for initial price data to load
+2. Configure your trading parameters in the sidebar:
+   - Set leverage (1x to 20x)
+   - Adjust position size in USDC
+   - Customize trend detection settings
+
+### Manual Trading
+- Use **Open Long** when you expect price to rise
+- Use **Open Short** when you expect price to fall
+- Monitor your position's PnL in real-time
+- Close positions manually using **Close Position**
+
+### Automated Trading
+- Click **Start Bot** to enable automated trend-following
+- The bot will analyze price movements and open/close positions automatically
+- Monitor trading actions in the trade log
+- Stop automation anytime with **Stop Bot**
+
+### Performance Analysis
+- View real-time price charts with your trading signals
+- Track cumulative PnL over time
+- Analyze win rate and trading statistics
+- Review detailed trade history
+
+## Key Components
+
+### Trading Strategy (`strategy.py`)
+- Implements trend-following algorithm
+- Manages position lifecycle and PnL calculation
+- Handles liquidation logic and risk management
+
+### Jupiter API Client (`jupiter_api.py`)
+- Fetches real-time SOL/USDC prices
+- Implements retry logic for reliable data access
+- No authentication required
+
+### Trading Bot (`trading_bot.py`)
+- Coordinates strategy execution with price updates
+- Manages automated trading loop
+- Provides manual trading interface
+
+### Streamlit App (`app.py`)
+- User interface and visualization
+- Real-time dashboard updates
+- Interactive controls and configuration
